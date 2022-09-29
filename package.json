@@ -2,7 +2,6 @@
   "name": "produtos-oop",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
@@ -18,9 +17,22 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^28.0.3",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "parcel": "^2.7.0"
   },
   "dependencies": {
     "cross-env": "^7.0.3"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carol-xavier/produtos-oop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carol-xavier/produtos-oop/issues"
+  },
+  "homepage": "https://github.com/carol-xavier/produtos-oop#readme",
+  "description": ""
 }
