@@ -16,9 +16,7 @@ export class Order {
     }
 
     getTotal() {
-        let sum = 0;
-        this.items.forEach((item) => { sum += item.price });
-        return sum;
+        return this.items.reduce((sum, item) => sum += item.price, 0);
     }
 
     getTaxes() {
